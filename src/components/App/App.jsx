@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 //import 3 components
+import SearchBar from '../SearchBar/SearchBar'
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
           Ja<span className="highlight">mmm</span>ing
         </h1>
         <div className="App">
-          {/* <SearchBar /> */}
+          <SearchBar />
           <div className="App-playlist">
             {/* <SearchResults /> */}
             {/* <SearchPlaylist /> */}
