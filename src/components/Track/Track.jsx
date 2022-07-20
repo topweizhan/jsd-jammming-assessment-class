@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-//import Track.css
+import "./Track.css"
 
 class Track extends Component {
   render() {
